@@ -48,7 +48,7 @@ router.post("/api/workouts", ({ body }, res) => {
     });
 });
 
-// get workouts within range
+// get workouts in range
 router.get("/api/workouts/range", (req, res) => {
 
     db.Workout.find({}).then(dbWorkout => {
