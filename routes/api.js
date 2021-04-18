@@ -1,6 +1,14 @@
 const db = require("../models");
 const router = require("express").Router();
 
+db.Workout.find({}).then(function (res) {
+    console.log("Check if database has data");
+    if (res.length === 0) {
+        console.log("No data available");
+        require("./seeders/seed.js");
+    }
+});
+
 //get workouts
 router.get("/api/workouts", (req, res) => {
 
