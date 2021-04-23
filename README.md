@@ -35,19 +35,19 @@ The user should be able to:
 - [x] View the total duration of each workout from the past seven workouts on the `stats` page.
 
 ## Description
-A full stack application for a blog site site allowing users to create an account and make blog posts to the application. 
-A user, once signed in is routed to their dashboard where they can add new posts and view all of their existing posts, and make updates or remove posts
+A full stack application for a fitness tracking application allowing users to add a new workout and see all of their workouts aggregated into a data-viz stats view. 
 <br><br>
-![login page](https://github.com/FAC-73/dreams-never-end/blob/main/assets/landing-page.png?raw=true)
+![Homepage](https://github.com/FAC-73/dreams-never-end/blob/main/assets/landing-page.png?raw=true)
 <br><br>
-Users can also add comments to other users posts once signed in. Each post is appended with a user name, which in the database is appended to an ID that's assigned on creation of an account.
+Homepage view - users can see their stored workout on load of the homepage
 <br><br>
-![Dashboard](https://github.com/FAC-73/dreams-never-end/blob/main/assets/add-exercise.png?raw=true)
+![Create workout](https://github.com/FAC-73/dreams-never-end/blob/main/assets/add-exercise.png?raw=true)
 <br><br>
-![home page](https://github.com/FAC-73/dreams-never-end/blob/main/assets/stats.png?raw=true)
+Create workout - users add new workouts to the application. They can choose between two types of workout: Cardio or Resistance
 <br><br>
-This application is configured with an Express.js API, and uses Sequelize to interact with a MySQL database.
-It also uses handlebars.js for front-end views and layouts, as well as javascript for interactions
+![Weekly stats](https://github.com/FAC-73/dreams-never-end/blob/main/assets/stats.png?raw=true)
+<br><br>
+Weekly stats - An aggregated view of all workouts from the week within a data vizualization
 <br><br>
 Launch application [click here](https://boiling-crag-43918.herokuapp.com/?id=60820e67e2042500159b95e7)
 
