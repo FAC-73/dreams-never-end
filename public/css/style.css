@@ -30,8 +30,6 @@ nav {
   font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 800;
   font-size: 28px;
-  box-shadow: 10px 10px grey;
-  z-index: 1;
 }
 
 a,
@@ -397,10 +395,6 @@ form > button {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
-/* .workout .card {
-  width: 350px;
-} */
 
 .prev-workout button {
   margin: 10px;
