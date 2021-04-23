@@ -2,10 +2,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Fitness Tracker to track your workouts. Built using MongoDB database schema and expressJS
-
 <br /><br />
 
-![Blog site](https://github.com/FAC-73/dreams-never-end/blob/main/public/assets/Home.png?raw=true)
+![Fitness tracker site](https://github.com/FAC-73/dreams-never-end/blob/main/assets/landing-page.png?raw=true)
 Launch application [click here](https://boiling-crag-43918.herokuapp.com/?id=60820e67e2042500159b95e7)
 <br />
 
@@ -39,13 +38,13 @@ The user should be able to:
 A full stack application for a blog site site allowing users to create an account and make blog posts to the application. 
 A user, once signed in is routed to their dashboard where they can add new posts and view all of their existing posts, and make updates or remove posts
 <br><br>
-![login page](https://github.com/FAC-73/dreams-never-end/blob/main/public/assets/login.png?raw=true)
+![login page](https://github.com/FAC-73/dreams-never-end/blob/main/assets/landing-page.png?raw=true)
 <br><br>
 Users can also add comments to other users posts once signed in. Each post is appended with a user name, which in the database is appended to an ID that's assigned on creation of an account.
 <br><br>
-![Dashboard](https://github.com/FAC-73/dreams-never-end/blob/main/public/assets/dashboard.png?raw=true)
+![Dashboard](https://github.com/FAC-73/dreams-never-end/blob/main/assets/add-exercise.png?raw=true)
 <br><br>
-![home page](https://github.com/FAC-73/dreams-never-end/blob/main/public/assets/Home.png?raw=true)
+![home page](https://github.com/FAC-73/dreams-never-end/blob/main/assets/stats.png?raw=true)
 <br><br>
 This application is configured with an Express.js API, and uses Sequelize to interact with a MySQL database.
 It also uses handlebars.js for front-end views and layouts, as well as javascript for interactions
