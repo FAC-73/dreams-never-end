@@ -62,7 +62,7 @@ Navigate to the dreams-never-end folder directory using the command prompt.
 
 Run `npm install` to install all dependencies. in terminal or bash
 <br><br>
-Run `node seeders/seed.js` to seed the data
+Run `npm seed` to seed the data
 <br><br>
 Run `npm start` to run the application in terminal or bash
 <br><br>
