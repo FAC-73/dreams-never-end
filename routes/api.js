@@ -2,7 +2,7 @@ const db = require("../models");
 const router = require("express").Router();
 
 db.Workout.find({}).then(function (res) {
-    console.log("Check if database has data");
+    console.log("Data successfully loaded");
     if (res.length === 0) {
         console.log("No data available");
         require("./seeders/seed.js");
@@ -29,7 +29,7 @@ router.get("/api/workouts", (req, res) => {
     });
 });
 
-// add exercise
+// include exercise
 router.put("/api/workouts/:id", (req, res) => {
 
     db.Workout.findOneAndUpdate(
@@ -56,11 +56,11 @@ router.post("/api/workouts", ({ body }, res) => {
     });
 });
 
-// get workouts in range
+//add workouts in range
 router.get("/api/workouts/range", (req, res) => {
 
     db.Workout.find({}).then(dbWorkout => {
-        console.log("ALL WORKOUTS");
+        console.log("All workouts");
         console.log(dbWorkout);
 
         res.json(dbWorkout);
